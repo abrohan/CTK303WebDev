@@ -1,0 +1,133 @@
+    body{
+        background-image: url(KingdomHeart.png);
+        background-size: cover;
+        background-color: #000000;
+    }
+
+    .parone{
+        color: white;
+        font-size: 25px;
+       top: 200px;
+    }
+
+    .partwo{
+        color: white;
+        font-size: 25px;
+        top: 200px;
+       position: absolute;
+    }
+
+    .parthree{
+        color: white;
+        font-size: 25px;
+        top: 300px;
+        position: absolute;
+    }
+
+    .Orgstyle{
+        top: 350px;
+        position: absolute;
+        width: 300px;
+        height: 200px;
+    }
+
+    .parfour{
+        color: white;
+        font-size: 25px;
+       top: 500px;
+       position: absolute;
+    }
+  
+  #pagestructure {
+      margin: 2em auto;
+      padding: 0;
+      width: 1260px;
+      height: 760px;
+      border: 5px solid #000000;
+    }
+
+    .pagehead{
+        text-align: center ;
+        color: white;
+    }
+
+    .heart1{
+        position: absolute;
+  text-align: center;
+ 
+  border-radius:20px;
+  translate: 750px;
+  opacity: .5;
+  animation: heart-ani 10s linear infinite;
+    }
+
+    @keyframes heart-ani {
+        0%   { opacity: .5; top:650px; }
+        50%  { opacity: .5; }
+        100% { opacity: .5; top: -300px; }
+      }
+
+      .heart2{
+        position: absolute;
+  text-align: center;
+ 
+  border-radius:20px;
+  translate: 800px;
+  opacity: .5;
+  animation: heart-ani 7s linear infinite;
+    }
+
+    @keyframes heart-ani {
+        0%   { opacity: .5; top:650px; }
+        50%  { opacity: .5; }
+        100% { opacity: .5; top: -300px; }
+      }
+
+      .heart3{
+        position: absolute;
+  text-align: center;
+  
+  border-radius:20px;
+  translate: 900px;
+  opacity: .5;
+  animation: heart-ani 8s linear infinite;
+    }
+
+    @keyframes heart-ani {
+        0%   { opacity: .5; top:650px; }
+        50%  { opacity: .5; }
+        100% { opacity: .5; top: -300px; }
+      }
+
+      .heart4{
+        position: absolute;
+  text-align: center;
+
+  border-radius:20px;
+  translate: 850px;
+  opacity: .5;
+  animation: heart-ani 6s linear infinite;
+    }
+
+    @keyframes heart-ani {
+        0%   { opacity: .5; top:650px; }
+        50%  { opacity: .5; }
+        100% { opacity: .5; top: -300px; }
+      }
+
+      .heart5{
+        position: absolute;
+  text-align: center;
+
+  border-radius:20px;
+  translate: 950px;
+  opacity: .5;
+  animation: heart-ani 6s linear infinite;
+    }
+
+    @keyframes heart-ani {
+        0%   { opacity: .5; top:650px; }
+        50%  { opacity: .5; }
+        100% { opacity: .5; top: -300px; }
+      }
+

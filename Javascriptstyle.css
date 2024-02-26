@@ -1,0 +1,108 @@
+body{
+    background-image: url(beefield.jpg);
+    background-size: cover;
+    margin-left: 250px;
+}
+
+#beestructure {
+    text-align: center;
+    padding: 0;
+    width: 960px;
+    height: 750px;
+    border: 5px solid #ffffff;
+    position: absolute;
+}
+
+h1{
+    font-size: 40px;
+    top: 0px;
+    color: white;
+}
+
+h1:hover{
+    transform: scale(1.25);
+}
+
+p{
+    font-size: 20px;
+    color:rgb(196, 90, 194);
+    position: absolute;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    top: 580px;
+    left: 50px;
+}
+
+p:hover{
+    transform: scale(1.25);
+}
+
+p2{
+    font-size: 20px;
+    color:rgb(90, 131, 196);
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+p2:hover{
+    transform: scale(1.25);
+}
+
+p3{
+    font-size: 20px;
+    color:rgb(130, 33, 209);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+p3:hover{
+    transform: scale(1.25);
+}
+
+p4{
+    font-size: 20px;
+    color:rgb(193, 22, 67);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+p4:hover{
+    transform: scale(1.25);
+}
+
+p5{
+    font-size: 20px;
+    color:rgb(223, 128, 19);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 350px;
+    left: 680px;
+}
+
+p5:hover{
+    transform: scale(1.25);
+}
+
+p6{
+    font-size: 20px;
+    color:rgb(220, 223, 19);
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 605px;
+    left: 600px;
+}
+
+p6:hover{
+    transform: scale(1.25);
+}

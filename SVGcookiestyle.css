@@ -1,0 +1,86 @@
+.cookietitle{
+    font-size: 40px;
+    position: absolute; 
+    top: 0px;
+    translate: 225px;
+    color: darkgreen;
+}
+
+.cookietitle2{
+    font-size: 30px;
+    position: absolute; 
+    top: 50px;
+    translate: 500px;
+    color: darkgreen;
+}
+
+.herecookie{
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    translate: 100px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    color: aquamarine;
+}
+
+.herecookie:hover{
+   opacity: 1;
+}
+
+.wherecookie{
+    font-size: 25px;
+    position: absolute;
+    top: 400px;
+    translate: 350px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    color: azure;
+}
+
+.wherecookie:hover{
+   opacity: 1;
+}
+
+.truecookie{
+    font-size: 25px;
+    position: absolute;
+    top: 550px;
+    translate: 950px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    color: darkgoldenrod;
+}
+
+.truecookie:hover{
+   opacity: 1;
+}
+
+.falsecookie{
+    font-size: 25px;
+    position: absolute;
+    top: 800px;
+    translate: 650px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    color: darkorchid;
+}
+
+.falsecookie:hover{
+   opacity: 1;
+}
+
+.unfortunatecookie{
+    font-size: 50px;
+    position: absolute;
+    top: 1300px;
+    translate: 75px;
+    width: auto;
+    height: auto;
+    color: deeppink;
+}
+
