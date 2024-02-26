@@ -1,0 +1,53 @@
+body{
+    border: 4px solid black;
+    background-color: black;
+    height: auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+   background-image: url(thehole.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+  }
+
+  b{
+    font-size: 40px;
+  }
+
+  @media all and (min-width: 20rem){
+    .part1-1{opacity:0%;}
+    .part2-1{opacity:0%;position: absolute;}
+    .part3{opacity:100%; top: 100px; text-align: center; position: absolute; font-size: 20px;}
+    img{opacity:100%;}
+  }   
+
+  @media all and (min-width: 50rem){
+    .part1{opacity:0%;}.part1-1{opacity:0%;}
+    .part2-1{opacity:80%; top:100px; text-align: center;position: absolute;}
+    .part3{opacity:20%;top: 100px; text-align: center; position: absolute; font-size: 22px;}
+    img{opacity: 50%;}
+  }   
+
+  @media all and (min-width: 60rem){
+    .part2-1{opacity:100%; top:100px; text-align: center; position: absolute;}
+    .part3{opacity:0%; font-size: 22px;}
+    img{opacity: 0%;}
+  }   
+
+  @media all and (min-width: 70rem){
+    .part1-1{opacity:80%; top:100px; text-align: center;}
+    .part2-1{opacity:20%;}
+    .part3{opacity: 0%;}
+  }   
+
+  @media all and (min-width: 80rem){
+    .part1-1{opacity:100%; top:0px;text-align: center;}
+    .part2-1{opacity:0%;}
+    .part3{opacity: 0%;}
+  }   
